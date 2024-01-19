@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 async function getData() {
-  const res = await fetch("https://nextjsa-git-main-tommyrzt.vercel.app/api/posts", {
+  const res = await fetch("/api/posts", {
     cache: "no-store",
   });
 
