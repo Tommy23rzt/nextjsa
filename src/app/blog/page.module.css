@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.image{
+  object-fit: cover;
+}
+
+.content {
+}
+
+.title{
+  margin-bottom: 10px;
+}
+
+.desc{
+  font-size: 18px;
+  color: #999;
+}
+
+.error {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.error h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.error p {
+  font-size: 18px;
+  color: #999;
+}
